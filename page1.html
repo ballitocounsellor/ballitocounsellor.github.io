@@ -10,7 +10,7 @@
   <meta name="description" content="">
   
   
-  <title>About</title>
+  <title>Contact Form</title>
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
@@ -28,7 +28,7 @@
 </head>
 <body>
   
-  <section class="menu menu1 cid-sxVoCHrxeL" once="menu" id="menu1-s">
+  <section class="menu menu1 cid-sxVoCHrxeL" once="menu" id="menu1-1g">
     
 
     <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
@@ -57,74 +57,68 @@
     </nav>
 </section>
 
-<section class="header1 cid-sxVyAzPCH6 mbr-fullscreen mbr-parallax-background" id="header1-1c">
+<section class="witsec-mailform mbr-section cid-syZ5wZS3uB mbr-parallax-background" id="witsec-mailform-1j" data-rv-view="147">
 
-    
+  
 
-    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(250, 250, 250);"></div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-lg-10">
-                <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1">A little more about me</h1>
-                
-                <p class="mbr-text mbr-fonts-style display-7">I am registered with the Health Professions Council of South Africa and manage a private practice in Ballito. In addition to my private work, I offer voluntary services to Umhlali SAPS Trauma Unit, as well as to Grace Family Church. My work is varied and diverse, from private individual sessions, to large group sessions in a Corporate environment.
-<br>
-<br>I also offer guidance to numerous schools on topics that are relevant to the situations that our children are exposed to today. I lecture part-time and am part of the local Ballito Private Practitioners Forum which assists me in remaining current in my outlook and accountable in my conduct.</p>
-                <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-7" href="https://mobiri.se">Book a session</a></div>
-            </div>
-        </div>
+  <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(250, 250, 250);">
+  </div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="title col-12 col-lg-8">
+        <h2 class="mbr-section-title align-center pb-3 mbr-fonts-style display-2">
+          Book a session</h2>
+        <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-5">
+          Online sessions can be held over Zoom, Microsoft Teams, Google Meet, WhatsApp or Email.</h3>
+      </div>
     </div>
+  </div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="media-container-column col-lg-8">
+          <form class="mbr-form" onsubmit="witsecSendMail(this)">
+            <input type="hidden" name="subject" value="A message from your website.">
+            <input type="hidden" name="autorespond" value="1">
+            <input type="hidden" name="redirectURL" value="index.html">
+
+            <div class="rowflexrev flex-column-reverse">
+              <div class="row">
+                <div class="col-md-12 form-group ws-form-alerts">
+                  
+                  <div hidden="hidden" class="alert alert-danger col-12 display-7" witsec-html="An error occured. Please try again."></div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-4 form-group">
+                  <p class="mbr-section-labels mbr-fonts-style display-7">Name</p>
+                  <input type="text" name="name" data-form-field="Name" required="required" class="form-control display-7">
+                </div>
+                <div class="col-md-4 form-group">
+                  <p class="mbr-section-labels mbr-fonts-style display-7">Email</p>
+                  <input type="email" name="email" data-form-field="Email" required="required" class="form-control display-7">
+                </div>
+                <div class="col-md-4 form-group">
+                  <p class="mbr-section-labels mbr-fonts-style display-7">Phone</p>
+                  <input type="tel" name="phone" data-form-field="Phone" class="form-control display-7">
+                </div>
+                <div class="col-md-12 form-group">
+                  <p class="mbr-section-labels mbr-fonts-style display-7">Message</p>
+                  <textarea name="message" data-form-field="Message" required="required" class="form-control display-7"></textarea>
+                </div>
+                
+                
+                <div class="g-recaptcha col-md-12 form-group"></div>
+                <div class="col-md-12 input-group-btn align-center"><a type="submit" class="btn btn-primary btn-form display-4">SEND FORM</a></div>
+              </div>
+            </div>
+        </form>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section class="header1 cid-sxVwnNt8hu" id="header1-19">
-
-    
-
-    
-
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-lg-10">
-                <h1 class="mbr-section-title mbr-fonts-style mb-3 display-5">What is important to me</h1>
-                
-                <p class="mbr-text mbr-fonts-style display-7">To ensure that clients find me approachable and feel able to discuss their issues openly and freely
-<br>To build rapport and trust with all medical professionals I interact with
-<br>To treat all people with dignity and respect
-<br>To work in collaboration with my client to achieve their goals
-<br>To focusing ultimately on health and happiness</p>
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="header1 cid-sxVwotkCl4" id="header1-1a">
-
-    
-
-    
-
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-lg-10">
-                <h1 class="mbr-section-title mbr-fonts-style mb-3 display-5">Areas of special interest</h1>
-                
-                <p class="mbr-text mbr-fonts-style display-7">Pastoral counselling
-<br>Relationships and couples’ counselling
-<br>Children and adolescents / parental problems
-<br>Decision making
-<br>Life adjustments and changes
-<br>Trauma de-briefing
-<br>Anxiety and Stress
-<br>Depression (especially Post-Natal Depression)</p>
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="footer6 cid-sxVplaiHBZ" once="footers" id="footer6-t">
+<section class="footer6 cid-sxVplaiHBZ" once="footers" id="footer6-1h">
 
     
 
@@ -156,7 +150,7 @@
                 <p class="mbr-text mbr-fonts-style mb-4 display-7">Sessions are 60 minutes and charged at the tariff rate (Medical Aid Rate). Including couples counselling.</p>
             </div>
             <div class="col-12 col-md-6">
-                <div class="google-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCNveGQ9bfpKFwWzQLLftrR9hNiHwdqQG8&amp;q=20 Jacqueline Drive, Ballito" allowfullscreen=""></iframe></div>
+                <div class="google-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCZI5F_k6S1k46ujh0SNrapM89f7mJxd30&amp;q=20 Jacqueline Drive, Ballito" allowfullscreen=""></iframe></div>
             </div>
             <div class="col-md-6">
                 

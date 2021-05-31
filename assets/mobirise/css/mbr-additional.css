@@ -1552,18 +1552,61 @@ a {
     left: -1rem;
   }
 }
-.cid-sxVyAzPCH6 {
+.cid-syZ5wZS3uB {
+  padding-top: 90px;
+  padding-bottom: 90px;
   background-image: url("../../../assets/images/tim-chow-9ickpsq9g5q-unsplash-2000x1333.jpeg");
 }
-.cid-sxVwnNt8hu {
-  padding-top: 6rem;
-  padding-bottom: 1rem;
-  background-color: #fafafa;
+.cid-syZ5wZS3uB .rowflexrev {
+  display: -webkit-flex;
 }
-.cid-sxVwotkCl4 {
-  padding-top: 1rem;
-  padding-bottom: 3rem;
-  background-color: #fafafa;
+.cid-syZ5wZS3uB .ws-form-alerts {
+  margin-top: 1rem;
+}
+.cid-syZ5wZS3uB .title {
+  margin-bottom: 2rem;
+}
+.cid-syZ5wZS3uB .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-syZ5wZS3uB textarea.form-control {
+  min-height: 188px;
+}
+.cid-syZ5wZS3uB LABEL {
+  color: #232323;
+}
+.cid-syZ5wZS3uB .mbr-section-terms {
+  text-align: center;
+  color: #232323;
+  margin-bottom: 0px;
+}
+.cid-syZ5wZS3uB .mbr-section-labels {
+  color: #232323;
+  padding: 0;
+  margin-bottom: .357em;
+  text-align: left;
+}
+.cid-syZ5wZS3uB .mbr-section-autorespond {
+  text-align: center;
+  color: #232323;
+  margin-bottom: 0px;
+}
+.cid-syZ5wZS3uB .alert {
+  margin-bottom: 0;
+}
+.cid-syZ5wZS3uB .alert-success {
+  background-color: #70c770;
+  color: #ffffff;
+}
+.cid-syZ5wZS3uB .alert-danger {
+  background-color: #ff4a52;
+  color: #ffffff;
+}
+.cid-syZ5wZS3uB .btn {
+  display: inline-flex;
+}
+.cid-syZ5wZS3uB .hidden {
+  display: none;
 }
 .cid-sxVplaiHBZ {
   padding-top: 45px;
